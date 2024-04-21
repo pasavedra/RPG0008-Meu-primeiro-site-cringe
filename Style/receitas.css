@@ -1,0 +1,39 @@
+  
+/*Estilo Página Receitas*/
+/*Header*/
+
+main {
+  background-color: beige;
+}
+.card {
+    margin: 20px ;
+    width: 360px;
+    height: 520px;
+    background-color:beige;;
+    border-radius: solid 50px;
+    border-color: rgba(91, 58, 22, 0.795);
+    
+  }
+  .card-img-top {
+    object-fit: cover;
+    height: 125px;
+  }
+  .card-title {
+    text-align: center;
+    font-weight: bold;
+  }
+  .card-text {
+    text-align: justify;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    color:white;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred
+    }
